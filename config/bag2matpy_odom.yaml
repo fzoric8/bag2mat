@@ -1,0 +1,4 @@
+namespace: ['']
+topic_list:
+  - [/firefly/ground_truth/odometry, nav_msgs/Odometry, flight_data]
+

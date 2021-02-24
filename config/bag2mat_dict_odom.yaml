@@ -1,0 +1,16 @@
+nav_msgs/Odometry:
+ msg_time: t.to_sec()
+ position_x: m.pose.pose.position.x
+ position_y: m.pose.pose.position.y
+ position_z: m.pose.pose.position.z
+ velocity_x: m.twist.twist.linear.x
+ velocity_y: m.twist.twist.linear.y
+ velocity_z: m.twist.twist.linear.z
+ orientation_quat_x: m.pose.pose.orientation.x
+ orientation_quat_y: m.pose.pose.orientation.y
+ orientation_quat_z: m.pose.pose.orientation.z
+ orientation_quat_w: m.pose.pose.orientation.w
+ angular_velocity_x: m.twist.twist.angular.x
+ angular_velocity_y: m.twist.twist.angular.y
+ angular_velocity_z: m.twist.twist.angular.z
+

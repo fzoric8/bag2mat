@@ -36,3 +36,10 @@
   -s, --subtract_start_time
                         Boolean flag to specify whether to include offset_time obtained by subtracting bag start_time from all timestamps
   ```
+
+## Example of command for transforming rosbag record to mat file
+
+```
+./bag2matpy -i /home/developer/2021-02-24-16-46-32.bag -c ../config/bag2matpy_odom.yaml -d ../config/bag2mat_dict_odom.yaml -o /home/developer/rosbag-records
+```
+
